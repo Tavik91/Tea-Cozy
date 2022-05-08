@@ -1,0 +1,143 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 22px;
+    display: inline-flex;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px;
+    z-index: 1;
+}
+
+.HeaderImg {
+    height: 50px;
+}
+
+
+.HeaderNav {
+    text-decoration: underline;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+
+}
+
+.HeaderNav ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.HeaderNav li {
+    padding: 0 10px;
+}
+
+.mission {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 69px;
+    justify-content: center;
+    background: url(./resources/img-mission-background.jpg) no-repeat;
+    background-position: 50% 69px;
+
+}
+
+.MissionSection h2,
+.MissionSection h4 {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+}
+
+.MissionSection {
+    margin-top: 69px;
+}
+
+.featured {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.FeaturedTitle {
+    margin: auto;
+    width: 100%;
+}
+
+.TrendContainer {
+    display: inline-flex;
+    width: 1000px;
+    height: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.trend img {
+    width: 300px;
+    height: 200px;
+    padding: 10px 10px;
+}
+
+.trend h4 {
+    padding: 10px;
+    margin: 0;
+}
+
+.location {
+    height: 500px;
+    background: url(./resources/img-locations-background.jpg) no-repeat;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.location h1 {
+    background-color: initial;
+    margin: 0;
+    padding: 0;
+}
+
+.cities {
+    background-color: initial;
+}
+
+.cities div {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    margin: 15px 20px;
+    opacity: 1;
+}
+
+.contact {
+    text-align: center;
+}
+
+footer {
+    padding-left: 20px;
+    text-align: left;
+}
